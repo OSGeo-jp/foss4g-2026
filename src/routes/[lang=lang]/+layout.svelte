@@ -1,4 +1,5 @@
 <script lang="ts">
+  import '../../app.css'
   import { setupI18n } from '$lib/i18n'
   import { t } from 'svelte-i18n'
 
@@ -14,9 +15,17 @@
   <title>{$t('title')}</title>
 </svelte:head>
 
-<nav>
-  <a href="/en/">English</a>
-  <a href="/ja/">日本語</a>
-</nav>
+<div class="navbar bg-base-100 shadow-sm">
+  <div class="flex-1">
+    <a class="btn btn-ghost text-xl" href="/">FOSS4G 2026</a>
+  </div>
+  <div class="flex-none">
+    <ul class="menu menu-horizontal px-1">
+      <li><a href="/{data.locale}/attend/register">Register</a></li>
+    </ul>
+  </div>
+</div>
 
-{@render children()}
+<div class="mx-auto flex min-h-screen max-w-5xl flex-col gap-6 sm:gap-0">
+  {@render children()}
+</div>

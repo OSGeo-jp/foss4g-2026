@@ -21,6 +21,7 @@
     "daisyui": "^5.1.25",
     "svelte": "^5.39.4",
     "svelte-check": "^4.3.1",
+    "svelte-maplibre-gl": "^1.0.1",
     "tailwindcss": "^4.1.13",
     "typescript": "~5.8.3",
     "vite": "^7.1.7"

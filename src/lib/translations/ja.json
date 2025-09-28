@@ -1,3 +1,55 @@
 {
-  "title": "FOSS4G 2026 広島"
+  "title": "FOSS4G 2026 広島",
+  "nav": {
+    "register": "参加申し込み",
+    "about": {
+      "news": "ニュース",
+      "foss4g": "FOSS4Gについて",
+      "organizers": "主催者",
+      "logo": "私たちのロゴについて",
+      "code_of_conduct": "行動規範",
+      "privacy_policy": "プライバシーポリシー",
+      "terms_and_conditions": "登録条件及び規約"
+    },
+    "attend": {
+      "register": "参加申し込み",
+      "volunteering": "ボランティア",
+      "travel_grant_program": "旅費助成プログラム",
+      "conference_venue": "会場",
+      "entry_into_hiroshima": "広島への行き方",
+      "travel_guide": "旅行ガイド",
+      "adventure_guide": "アドベンチャーガイド",
+      "accommodation": "宿泊"
+    },
+    "program": {
+      "call_for_papers": "",
+      "schedule": "",
+      "workshops": "",
+      "outline": "",
+      "events": "",
+      "b2b_event": "",
+      "sprints": ""
+    },
+    "languages": {
+      "current_language": "日本語",
+      "english": "English",
+      "japanese": "日本語"
+    }
+  },
+  "attend": {
+    "register": {
+      "title": "参加申し込み"
+    }
+  },
+  "map": {
+    "settings": {
+      "style": "https://tile.openstreetmap.jp/styles/maptiler-basic-ja/style.json"
+    },
+    "title": {
+      "main_venue": "メイン会場"
+    },
+    "description": {
+      "main_venue": "広島国際会議場"
+    }
+  }
 }

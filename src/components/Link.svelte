@@ -1,16 +1,24 @@
 <script lang="ts">
-  //
-  // this is a custom <a> component to prepend the link with the base path
-  // (useful for when app is deployed on github pages with a subfolder ie
-  // osgeo-oceania.github.io/foss4g-2025/)
-  //
+  // custom <a> that prepends base path when href starts with '/'
+  import { PUBLIC_BASE_PATH } from '$env/static/public'
 
-  import { PUBLIC_BASE_PATH } from '$env/static/public';
-  const { href: origHref, children, ...props } = $props();
+  // NOTE: Do NOT destructure $props() here; that would break reactivity.
+  const p = $props()
 
-  const href = origHref.startsWith('/') ? `${PUBLIC_BASE_PATH}${origHref}` : origHref;
+  // Compute href reactively whenever parent updates p.href (plain string state for TS)
+  let href = $state('')
+  $effect(() => {
+    const h = (p.href as string | undefined) ?? ''
+    href = h.startsWith('/') ? `${PUBLIC_BASE_PATH}${h}` : h
+  })
+
+  // Forward all props except href and children (so our computed href wins)
+  const forwarded = $derived(() => {
+    const { href: _h, children, ...rest } = p
+    return rest
+  })
 </script>
 
-<a {href} {...props}>
-  {@render children()}
+<a {...forwarded} {href}>
+  {@render p.children?.()}
 </a>

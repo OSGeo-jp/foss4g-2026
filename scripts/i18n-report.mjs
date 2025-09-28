@@ -39,10 +39,19 @@ function unflatten(flat) {
     let cur = root
     for (let i = 0; i < parts.length; i++) {
       const p = parts[i]
-      if (i === parts.length - 1) {
-        cur[p] = v
+      const isLast = i === parts.length - 1
+      if (isLast) {
+        // If a deeper object already exists, do not overwrite it with a primitive
+        if (cur[p] && typeof cur[p] === 'object' && !Array.isArray(cur[p])) {
+          // keep existing object (e.g., when both 'a.b' and 'a' exist); prefer deeper structure
+        } else {
+          cur[p] = v
+        }
       } else {
-        cur[p] ??= {}
+        // Ensure the container is an object (convert from primitive if necessary)
+        if (typeof cur[p] !== 'object' || cur[p] === null || Array.isArray(cur[p])) {
+          cur[p] = {}
+        }
         cur = cur[p]
       }
     }

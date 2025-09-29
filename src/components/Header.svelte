@@ -20,7 +20,6 @@
   $effect(() => {
     // Track page.url and update a plain string state (no $derived)
     restPath = getRestPath(page.url.pathname)
-    currentLanguage = $t('nav.languages.current_language')
   })
 </script>
 

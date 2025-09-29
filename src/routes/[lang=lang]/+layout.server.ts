@@ -1,5 +1,7 @@
 import type { LayoutServerLoad } from './$types'
 
+export const prerender = true
+
 export const load: LayoutServerLoad = async ({ params, cookies }) => {
   const locale = (params.lang as 'en' | 'ja') || 'en'
 

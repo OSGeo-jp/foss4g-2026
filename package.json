@@ -13,6 +13,7 @@
     "i18n:merge:ja": "node scripts/i18n-merge.mjs ja"
   },
   "devDependencies": {
+    "@sveltejs/adapter-static": "^3.0.9",
     "@sveltejs/enhanced-img": "^0.8.2",
     "@sveltejs/kit": "^2.43.4",
     "@sveltejs/vite-plugin-svelte": "^6.2.0",

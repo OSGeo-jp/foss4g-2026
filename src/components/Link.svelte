@@ -11,14 +11,8 @@
     const h = (p.href as string | undefined) ?? ''
     href = h.startsWith('/') ? `${PUBLIC_BASE_PATH}${h}` : h
   })
-
-  // Forward all props except href and children (so our computed href wins)
-  const forwarded = $derived(() => {
-    const { href: _h, children, ...rest } = p
-    return rest
-  })
 </script>
 
-<a {...forwarded} {href}>
+<a {...p} {href}>
   {@render p.children?.()}
 </a>

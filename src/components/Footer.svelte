@@ -1,6 +1,5 @@
 <script lang="ts">
   import { t } from 'svelte-i18n'
-  import Link from '$components/Link.svelte'
 </script>
 
 <footer class="footer footer-horizontal footer-center bg-base-200 p-10 p-10">

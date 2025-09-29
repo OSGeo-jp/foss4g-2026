@@ -25,3 +25,18 @@ npm run i18n:merge:<lang>
 ```
 
 to merge the translations into the main translation files located in `src/lib/translations/`.
+
+## build and preview locally
+
+```bash
+npm run build
+npm run preview
+```
+
+## preview deployment
+
+The main branch is 'staging', and the production branch is 'main'.
+
+Push to 'staging' to deploy to the staging environment, https://foss4g-2026.pages.dev/ . It is automatically deployed by Cloudflare Pages.
+
+Push to 'main' to deploy to the production environment, but it is not implemented yet.

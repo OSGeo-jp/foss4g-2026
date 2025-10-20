@@ -29,7 +29,9 @@
   </div>
   <div class="flex-none">
     <ul class="menu menu-horizontal px-1">
+      <!--
       <li><Link href={'/' + data.locale + '/attend/register'}>{$t('attend.register.title')}</Link></li>
+      -->
       <li>
         <details>
           <summary>

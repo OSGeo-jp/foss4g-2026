@@ -9,6 +9,7 @@ const config = {
     alias: {
       $components: 'src/components',
       $lib: 'src/lib',
+      $images: 'src/images',
     },
     adapter: adapter(),
     prerender: {

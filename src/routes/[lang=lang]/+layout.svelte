@@ -5,6 +5,8 @@
   import Header from '$components/Header.svelte'
   import Footer from '$components/Footer.svelte'
 
+  import "$lib/icons"
+
   const { data, children } = $props<{ data: { locale: 'en' | 'ja' }, children: unknown }>()
 
   // Re-run on locale changes; not async (no Promise return)

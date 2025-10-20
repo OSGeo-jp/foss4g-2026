@@ -1,5 +1,97 @@
 {
   "title": "FOSS4G 2026 Hiroshima",
+  "images": {
+    "hiroshima": {
+      "alt": "Hiroshima Image",
+      "copyright": "HCVB"
+    },
+    "meeting_place": {
+      "alt": "Meeting Place Image",
+      "copyright": "HCVB"
+    }
+  },
+  "teaser": {
+    "top_content": {
+      "subtitle": "Bridging Geospatial Technology and Humanity",
+      "paragraph_1": "FOSS4G is the world’s largest conference dedicated to open-source geospatial software, organized by the OSGeo Foundation based in the United States. In 2026, this global FOSS4G event will be held in Hiroshima, Japan.",
+      "paragraph_2": "Geospatial technology empowers communities to address real-world challenges such as disaster response, urban planning, and environmental resilience.",
+      "paragraph_3": "At FOSS4G Hiroshima 2026, we will further highlight the humanitarian applications of open-source geospatial technologies — from supporting refugees to preserving cultural memory.",
+      "paragraph_4": "As a “City of Peace and Reconstruction,” Hiroshima is an ideal place to explore how technology can foster empathy, inclusion, and international collaboration.",
+      "paragraph_5": "And of course, we invite you to enjoy Hiroshima’s unique culture and delicious cuisine to the fullest."
+    },
+    "period": {
+      "label": "Conference Period",
+      "date": "August 30 - September 5, 2026",
+      "hands_on": {
+        "label": "Hands-on Workshop Days",
+        "date": "August 30 - 31, 2026"
+      },
+      "main": {
+        "label": "Main Conference Days",
+        "date": "September 1 - 3, 2026"
+      },
+      "sprints": {
+        "label": "Community Event and Code Sprint Days",
+        "date": "September 4 - 5, 2026"
+      }
+    },
+    "venue": {
+      "label": "Venue",
+      "main": {
+        "label": "Main venue",
+        "name": "International Conference Center Hiroshima"
+      },
+      "hands_on": {
+        "label": "Hands-on workshop venue",
+        "name": "RCC Bunka Center"
+      }
+    },
+    "fee": {
+      "label": "Registration Fee (Preliminary)",
+      "early_bird": {
+        "label": "Early Bird Registration",
+        "amount": "65,000 JPY"
+      },
+      "regular": {
+        "label": "Regular Registration",
+        "amount": "90,000 JPY"
+      },
+      "workshop": {
+        "label": "Hands-on Workshop",
+        "amount": "15,000 JPY (per workshop)"
+      }
+    },
+    "schedule": {
+      "label": "Schedule",
+      "call_for_proposals": {
+        "label": "Call for Proposals (Preliminary)",
+        "period": "December, 2025 - March, 2026"
+      },
+      "adoption": {
+        "label": "Adoption Period (Preliminary)",
+        "period": "April, 2026 - May, 2026"
+      },
+      "registration_deadline": {
+        "label": "Registration Deadline (Preliminary)",
+        "period": "July, 2026"
+      }
+    },
+    "social_event": {
+      "label": "Social Event",
+      "gala_dinner": {
+        "label": "Gala Dinner",
+        "venue": "Held at a hotel in the city"
+      },
+      "ice_breaker": {
+        "label": "Ice Breaker",
+        "venue": "Hiroshima Gate Park"
+      },
+      "excursions": {
+        "label": "Excursions",
+        "venue": "Miyajima, Iwakuni Shrine / Hiroshima Peace Memorial Park"
+      }
+    }
+  },
   "nav": {
     "register": "Register",
     "about": {

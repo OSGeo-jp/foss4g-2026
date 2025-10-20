@@ -22,13 +22,13 @@
       "accommodation": "宿泊"
     },
     "program": {
-      "call_for_papers": "",
+      "call_for_papers": "発表募集",
       "schedule": "スケジュール",
-      "workshops": "",
-      "outline": "",
-      "events": "",
-      "b2b_event": "",
-      "sprints": ""
+      "workshops": "ワークショップ",
+      "outline": "アウトライン",
+      "events": "イベント",
+      "b2b_event": "B2Bイベント",
+      "sprints": "スプリント"
     },
     "languages": {
       "current_language": "日本語",
@@ -50,6 +50,98 @@
     },
     "description": {
       "main_venue": "広島国際会議場"
+    }
+  },
+  "images": {
+    "hiroshima": {
+      "alt": "広島の画像",
+      "copyright": "HCVB"
+    },
+    "meeting_place": {
+      "alt": "会場の画像",
+      "copyright": "HCVB"
+    }
+  },
+  "teaser": {
+    "top_content": {
+      "subtitle": "",
+      "paragraph_1": "FOSS4Gは、米国に本拠地を置くOSGeo財団が主催するオープンソース地理空間ソフトウェアに関する世界最大のカンファレンスです。2026年には、そのFOSS4Gが広島にて開催されます。",
+      "paragraph_2": "地理空間技術は、防災対応、都市計画、環境レジリエンスといった現実の課題に取り組むために、コミュニティに力を与えるものです。",
+      "paragraph_3": "FOSS4G Hiroshima 2026では、それにくわえ、難民支援から文化的記憶の保存に至るまで、オープンソース地理空間技術の人道的側面からの活用にも焦点を当てます。",
+      "paragraph_4": "広島は「平和と再生の都市」として、テクノロジーが共感、包摂、そして国際的協力にどのように役立つかを探求するのにふさわしい場です。",
+      "paragraph_5": "もちろん、広島ならではの文化や美味しい料理も存分にお楽しみください。"
+    },
+    "period": {
+      "label": "会期",
+      "date": "2026年8月30日 - 9月5日",
+      "hands_on": {
+        "label": "ハンズオン",
+        "date": "2026年8月30日 - 31日"
+      },
+      "main": {
+        "label": "メインカンファレンス",
+        "date": "2026年9月1日 - 3日"
+      },
+      "sprints": {
+        "label": "コミュニティスプリント",
+        "date": "2026年9月4日 - 5日"
+      }
+    },
+    "venue": {
+      "label": "会場",
+      "main": {
+        "label": "メイン会場",
+        "name": "広島国際会議場"
+      },
+      "hands_on": {
+        "label": "ハンズオン",
+        "name": "RCC文化センター"
+      }
+    },
+    "fee": {
+      "label": "参加費用(予定)",
+      "early_bird": {
+        "label": "早期申し込み",
+        "amount": "65,000円"
+      },
+      "regular": {
+        "label": "一般申し込み",
+        "amount": "90,000円"
+      },
+      "workshop": {
+        "label": "ワークショップ",
+        "amount": "15,000円 (1ワークショップあたり)"
+      }
+    },
+    "schedule": {
+      "label": "スケジュール",
+      "call_for_proposals": {
+        "label": "発表募集期間(予定)",
+        "period": "2025年12月 - 2026年3月"
+      },
+      "adoption": {
+        "label": "採択決定(予定)",
+        "period": "2026年4月 - 5月"
+      },
+      "registration_deadline": {
+        "label": "参加登録締切(予定)",
+        "period": "2026年7月"
+      }
+    },
+    "social_event": {
+      "label": "Social Events",
+      "gala_dinner": {
+        "label": "Gala Dinner",
+        "venue": "市内ホテルにて開催"
+      },
+      "ice_breaker": {
+        "label": "Ice Breaker",
+        "venue": "ひろしまゲートパーク(旧市民球場跡地)"
+      },
+      "excursions": {
+        "label": "Excursions",
+        "venue": "宮島、厳島神社 / 平和記念公園"
+      }
     }
   }
 }

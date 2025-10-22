@@ -43,7 +43,7 @@
   </div>
   <p class="text-2xl mt-2">{$t('teaser.period.date')}</p>
   <div class="text-lg">
-    <p>{$t('teaser.period.handson.label')}: {$t('teaser.period.handson.date')}</p>
+    <p>{$t('teaser.period.hands_on.label')}: {$t('teaser.period.hands_on.date')}</p>
     <p>{$t('teaser.period.main.label')}: {$t('teaser.period.main.date')}</p>
     <p>{$t('teaser.period.sprints.label')}: {$t('teaser.period.sprints.date')}</p>
   </div>

@@ -12,6 +12,9 @@
     faAlarmClock,
     faPersonWalkingLuggage,
   } from '@fortawesome/free-solid-svg-icons'
+  import { config } from '@fortawesome/fontawesome-svg-core'
+  import '@fortawesome/fontawesome-svg-core/styles.css'
+  config.autoAddCss = false
 </script>
 
 <div class="grid w-full overflow-hidden">
@@ -36,9 +39,9 @@
   </div>
 </div>
 
-<div class="rounded-lg bg-gray-800/10 p-5 my-10">
+<div class="rounded-lg bg-gray-800/10 px-5 pb-5 my-10">
   <div class="mt-5 flex items-center">
-    <FontAwesomeIcon icon={faCalendarDay} class="text-2xl text-green-600" />
+    <FontAwesomeIcon icon={faCalendarDay} class="mr-1 text-2xl text-green-600" />
     <h2 class="text-3xl font-semibold">{$t('teaser.period.label')}</h2>
   </div>
   <p class="text-2xl mt-2">{$t('teaser.period.date')}</p>
@@ -49,12 +52,12 @@
   </div>
 </div>
 
-<div class="rounded-lg bg-gray-800/10 p-5 my-10">
+<div class="rounded-lg bg-gray-800/10 px-5 pb-5 my-10">
   <div class="mt-5 flex items-center">
-    <FontAwesomeIcon icon={faMapLocationDot} class="text-2xl text-green-600" />
+    <FontAwesomeIcon icon={faMapLocationDot} class="mr-1 text-2xl text-green-600" />
     <h2 class="text-3xl font-semibold">{$t('teaser.venue.label')}</h2>
   </div>
-  <div class="grid grid-cols-3 gap-4 items-center">
+  <div class="grid grid-cols-3 gap-4 items-top">
     <div class="col-span-2">
       <p class="text-2xl mt-2">{$t('teaser.venue.main.label')}: {$t('teaser.venue.main.name')}</p>
       <p class="text-2xl mt-2">{$t('teaser.venue.hands_on.label')}: {$t('teaser.venue.hands_on.name')}</p>
@@ -84,9 +87,9 @@
   />
 </div>
 
-<div class="rounded-lg bg-gray-800/10 p-5 my-10">
+<div class="rounded-lg bg-gray-800/10 px-5 pb-5 my-10">
   <div class="mt-5 flex items-center">
-    <FontAwesomeIcon icon={faDollarSign} class="text-2xl text-green-600" />
+    <FontAwesomeIcon icon={faDollarSign} class="mr-1 text-2xl text-green-600" />
     <h2 class="text-3xl font-semibold">{$t('teaser.fee.label')}</h2>
   </div>
   <div>
@@ -96,9 +99,9 @@
   </div>
 </div>
 
-<div class="rounded-lg bg-gray-800/10 p-5 my-10">
+<div class="rounded-lg bg-gray-800/10 px-5 pb-5 -5 my-10">
   <div class="mt-5 flex items-center">
-    <FontAwesomeIcon icon={faAlarmClock} class="text-2xl text-green-600" />
+    <FontAwesomeIcon icon={faAlarmClock} class="mr-1 text-2xl text-green-600" />
     <h2 class="text-3xl font-semibold">{$t('teaser.schedule.label')}</h2>
   </div>
   <div>
@@ -111,9 +114,9 @@
   </div>
 </div>
 
-<div class="rounded-lg bg-gray-800/10 p-5 my-10">
+<div class="rounded-lg bg-gray-800/10 px-5 pb-5 my-10">
   <div class="mt-5 flex items-center">
-    <FontAwesomeIcon icon={faPersonWalkingLuggage} class="text-2xl text-green-600" />
+    <FontAwesomeIcon icon={faPersonWalkingLuggage} class="mr-1 text-2xl text-green-600" />
     <h2 class="text-3xl font-semibold">{$t('teaser.social_event.label')}</h2>
   </div>
   <div>

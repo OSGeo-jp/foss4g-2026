@@ -2,3 +2,97 @@
 @plugin "daisyui" {
   themes: light --default;
 }
+
+/* レスポンシブ対応とタッチ操作の最適化 */
+
+/* タッチターゲットのサイズを最適化 */
+@media (hover: none) and (pointer: coarse) {
+  .btn, .menu li > *, .dropdown summary {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* モバイルでのタップハイライトを改善 */
+  .btn, .menu li > *, .dropdown summary, .card {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* フォーカス状態の改善 */
+.btn:focus-visible,
+.menu li > *:focus-visible,
+.dropdown summary:focus-visible {
+  outline: 2px solid hsl(var(--p));
+  outline-offset: 2px;
+}
+
+/* ドロップダウンメニューのz-indexを調整 */
+.dropdown-content {
+  z-index: 50;
+}
+
+/* スクロール可能な要素のスムーズスクロール */
+.overflow-x-auto {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* テーブルの横スクロール時のシャドウ効果 */
+.overflow-x-auto::-webkit-scrollbar {
+  height: 8px;
+}
+
+.overflow-x-auto::-webkit-scrollbar-track {
+  background: hsl(var(--b2));
+}
+
+.overflow-x-auto::-webkit-scrollbar-thumb {
+  background: hsl(var(--bc) / 0.3);
+  border-radius: 4px;
+}
+
+.overflow-x-auto::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--bc) / 0.5);
+}
+
+/* モバイルでのテキスト選択を改善 */
+@media (max-width: 768px) {
+  .prose p, .prose li {
+    line-height: 1.7;
+  }
+  
+  /* モバイルでのフォントサイズ調整 */
+  .text-4xl {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  
+  .text-3xl {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+}
+
+/* 高コントラストモードのサポート */
+@media (prefers-contrast: high) {
+  .card, .table {
+    border: 2px solid hsl(var(--bc));
+  }
+  
+  .btn {
+    border: 2px solid currentColor;
+  }
+}
+
+/* 動きを減らす設定への対応 */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  .overflow-x-auto {
+    scroll-behavior: auto;
+  }
+}

@@ -182,10 +182,6 @@
   "program_outline": {
     "title": "Program Outline",
     "coming_soon_message": "Detailed program will be published in July 2026",
-    "conference_overview": {
-      "title": "Conference Overview",
-      "description": "FOSS4G 2026 Hiroshima spans 5 days, combining workshops, main conference sessions, and code sprints to provide a comprehensive experience for the global geospatial community."
-    },
     "schedule_glance": {
       "title": "Schedule at a Glance",
       "table": {
@@ -200,86 +196,6 @@
           ["September 5 (Fri)", "Code Sprint Day 2", "Hiroshima University", "9:00 - 17:00"]
         ]
       }
-    },
-    "daily_structure": {
-      "title": "Daily Program Structure",
-      "workshop_days": {
-        "title": "Workshop Days (August 30-31)",
-        "schedule": [
-          "9:00 - 9:30: Registration and welcome coffee",
-          "9:30 - 12:30: Morning workshop sessions",
-          "12:30 - 13:30: Lunch break",
-          "13:30 - 16:30: Afternoon workshop sessions",
-          "16:30 - 17:00: Wrap-up and networking"
-        ]
-      },
-      "conference_days": {
-        "title": "Main Conference Days (September 1-3)",
-        "schedule": [
-          "9:00 - 9:30: Registration and morning coffee",
-          "9:30 - 10:30: Keynote presentation",
-          "10:30 - 11:00: Coffee break",
-          "11:00 - 12:30: Parallel sessions",
-          "12:30 - 14:00: Lunch and poster session",
-          "14:00 - 15:30: Parallel sessions",
-          "15:30 - 16:00: Coffee break",
-          "16:00 - 17:30: Parallel sessions",
-          "17:30 - 18:00: Lightning talks / Closing"
-        ]
-      }
-    },
-    "session_tracks": {
-      "title": "Session Tracks",
-      "technical": {
-        "title": "Technical Track",
-        "description": "Development, algorithms, performance"
-      },
-      "applications": {
-        "title": "Applications Track",
-        "description": "Use cases, case studies, implementations"
-      },
-      "community": {
-        "title": "Community Track",
-        "description": "Governance, sustainability, collaboration"
-      },
-      "academic": {
-        "title": "Academic Track",
-        "description": "Research, peer-reviewed papers"
-      },
-      "humanitarian": {
-        "title": "Humanitarian Track",
-        "description": "Disaster response, social impact"
-      },
-      "business": {
-        "title": "Business Track",
-        "description": "Commercial applications, business models"
-      }
-    },
-    "special_events": {
-      "title": "Special Events",
-      "welcome_reception": {
-        "title": "Welcome Reception",
-        "date": "September 1, 19:00-21:00",
-        "description": "Networking event at Hiroshima Peace Memorial Park"
-      },
-      "gala_dinner": {
-        "title": "Gala Dinner",
-        "date": "September 2, 19:00-22:00",
-        "description": "Traditional Japanese dinner with cultural performances"
-      }
-    },
-    "presentation_formats": {
-      "title": "Presentation Formats",
-      "keynote": "Keynote Presentations: 45 minutes (40 min talk + 5 min Q&A)",
-      "standard": "Standard Presentations: 25 minutes (20 min talk + 5 min Q&A)",
-      "lightning": "Lightning Talks: 5 minutes (no Q&A)",
-      "poster": "Poster Sessions: Interactive displays during lunch breaks",
-      "panel": "Panel Discussions: 90 minutes with multiple speakers"
-    },
-    "program_committee": {
-      "title": "Program Committee",
-      "description": "The program is curated by an international committee of geospatial experts, ensuring high-quality content across all tracks and formats.",
-      "announcement": "Committee members and detailed program will be announced as submissions are finalized."
     }
   },
   "keynote": {
@@ -928,9 +844,7 @@
         "items": [
           "Full access to all conference sessions",
           "Welcome package and conference materials",
-          "Coffee breaks and networking opportunities",
-          "Student networking events",
-          "Access to career fair and mentorship programs"
+          "Coffee breaks and networking opportunities"
         ]
       },
       "required_documentation": {
@@ -943,25 +857,6 @@
           "Documents must be in English or Japanese, or include certified translation"
         ]
       },
-      "student_activities": {
-        "title": "Student Activities",
-        "networking": {
-          "title": "Student Networking Session",
-          "description": "Connect with fellow students and recent graduates in the geospatial field."
-        },
-        "career_fair": {
-          "title": "Career Fair",
-          "description": "Meet potential employers and learn about career opportunities."
-        },
-        "mentorship": {
-          "title": "Mentorship Program",
-          "description": "Get paired with industry professionals for career guidance."
-        },
-        "presentations": {
-          "title": "Student Presentations",
-          "description": "Special session for student research presentations."
-        }
-      },
       "contact": {
         "title": "Questions?",
         "description": "Contact our student program coordinator:",
@@ -970,179 +865,100 @@
     },
     "travel_grant": {
       "title": "Travel Grant Program",
-      "description": "Information about travel grants and application process.",
+      "description": "Details about the FOSS4G 2026 Hiroshima Travel Grant Program (TGP).",
       "supporting_participation": {
-        "title": "Supporting Global Participation",
-        "description": "FOSS4G 2026 Hiroshima offers travel grants to support participants from developing countries and underrepresented communities in the geospatial field."
+        "title": "Increasing Accessibility and Diversity",
+        "description": "The FOSS4G 2026 Hiroshima organizing committee is pleased to provide a Travel Grant Program to increase the chances of attendance and accessibility of this conference to community members, especially focusing on facilitating participation for minority groups and categories usually underrepresented."
       },
-      "grant_coverage": {
-        "title": "Grant Coverage",
-        "full_grant": {
-          "title": "Full Grant",
-          "items": [
-            "Round-trip airfare (economy class)",
-            "Conference registration fee",
-            "Accommodation (4 nights)",
-            "Daily meal allowance"
-          ],
-          "limit": "Limited to 10 recipients"
-        },
-        "partial_grant": {
-          "title": "Partial Grant",
-          "items": [
-            "Conference registration fee",
-            "Accommodation (4 nights)",
-            "Local transportation"
-          ],
-          "limit": "Limited to 20 recipients"
-        }
-      },
-      "eligibility": {
-        "title": "Eligibility Criteria",
+      "who_should_apply": {
+        "title": "Who should apply",
+        "description": "The aim of the program is to increase the chances of attendance and accessibility of this conference to community members and it especially focuses on facilitating the participation for minority groups and categories usually underrepresented. This includes, but is not limited to:",
         "criteria": [
-          "Residents of developing countries (as defined by World Bank classification)",
-          "Active contributors to open-source geospatial projects",
-          "Students, researchers, or professionals in geospatial field",
-          "Demonstrated financial need",
-          "First-time FOSS4G attendees given priority",
-          "Women and underrepresented minorities encouraged to apply"
+          "People who wouldn't be able to attend without funding assistance.",
+          "People attending FOSS4G for the first time.",
+          "People from underrepresented communities, such as Indigenous communities; Residents of remote communities; and Women and minority genders.",
+          "Community development workers or students who don't have workplace or government funding",
+          "People who will make use of what they learn to make a positive impact on themselves and their communities.",
+          "People who contribute to open communities, such as contributing to OpenStreetMap, or open source software."
         ]
       },
-      "application_requirements": {
-        "title": "Application Requirements",
-        "description": "Applications must include:",
-        "requirements": [
-          "Completed application form",
-          "CV/Resume highlighting geospatial experience",
-          "Letter of motivation (max 500 words)",
-          "Evidence of open-source contributions (GitHub, project links)",
-          "Letter of support from employer/supervisor (if applicable)",
-          "Proof of financial need"
-        ]
+      "application_process": {
+        "title": "How to apply",
+        "description": "Before submitting your TGP application, think about the key information that will help us understand you better:",
+        "key_questions": [
+          "How have you and do you contribute to the community?",
+          "Do you belong to any community organisations and for how long?",
+          "Why do you need our support?",
+          "What financial assistance do you require (please be realistic)?"
+        ],
+        "note": "Applicant data will be kept confidential and only used for assessing TGP applications. Please ensure that the email address provided is regularly monitored as the selection committee may seek clarification of your response."
+      },
+      "about_tgp": {
+        "title": "About the TGP",
+        "description": "The FOSS4G Travel Grant Program initiative was established to facilitate accessibility and diversity at FOSS4G conferences. It is funded by OSGeo Foundation, proceeds from our generous sponsors, and contributions from organisations and individuals.",
+        "funding_note": "Please note that the number of grants available is dependent on this funding and the number of applications we receive.",
+        "management": "The TGP is managed by the FOSS4G 2026 Hiroshima LOC Committee."
       },
       "important_dates": {
         "title": "Important Dates",
+        "note": "Detailed schedule will be announced later.",
         "dates": [
-          "Application Opens: January 15, 2026",
-          "Application Deadline: March 31, 2026",
-          "Notification: May 15, 2026",
-          "Acceptance Confirmation: May 31, 2026"
+          "Application Opens: Spring 2026 (planned)",
+          "Application Deadline: Summer 2026 (planned)",
+          "Notification: Approximately 1 month after deadline",
+          "Acceptance Confirmation: Within 2 weeks of notification"
         ]
       },
-      "selection_process": {
-        "title": "Selection Process",
-        "description": "Applications will be reviewed by a diverse committee of geospatial professionals. Selection is based on:",
-        "criteria": [
-          "Contribution to open-source geospatial community (40%)",
-          "Financial need (30%)",
-          "Potential impact and benefit from attendance (20%)",
-          "Diversity and inclusion factors (10%)"
-        ]
+      "contact": {
+        "title": "Contact Information",
+        "description": "For more information, either on the disbursement of grants or guidance on the application process, please email us and we will do our best to assist and accommodate you:",
+        "email": "foss4g2026[at]osgeo.jp",
+        "note": "We will do our best to assist and accommodate you."
       },
-      "recipient_responsibilities": {
-        "title": "Grant Recipients Responsibilities",
-        "description": "Grant recipients are expected to:",
-        "responsibilities": [
-          "Attend the full conference program",
-          "Present their work (poster or lightning talk)",
-          "Write a brief report after the conference",
-          "Share their experience with their local community"
-        ]
+      "reimbursement": {
+        "title": "Grant Disbursement",
+        "description": "All expenses must be paid upfront, with the grants provided as reimbursement upon arrival at the conference. If this arrangement is inconvenient for you, please let us know and we'll do our best to help.",
+        "unsuccessful": "If your application is unsuccessful, we will let you know and possibly offer you a place on the standby list, just in case someone cannot make it or the conference receives additional funding."
       }
     },
     "volunteering": {
       "title": "Volunteering",
-      "description": "Details about volunteer opportunities and how to participate.",
+      "description": "Details about the FOSS4G 2026 Hiroshima volunteer program.",
       "join_team": {
         "title": "Join Our Volunteer Team!",
-        "description": "Help make FOSS4G 2026 Hiroshima a success while gaining valuable experience and networking opportunities. Volunteers are essential to creating an inclusive and memorable conference experience."
+        "description": "We need help with some of the day-to-day running of the conference and we think you'll be perfect for the job. As a volunteer, we'd like you to support us during the conference period."
       },
-      "volunteer_benefits": {
-        "title": "Volunteer Benefits",
-        "what_you_get": {
-          "title": "What You Get",
-          "benefits": [
-            "Free conference registration",
-            "Volunteer t-shirt and badge",
-            "Access to volunteer appreciation event",
-            "Certificate of participation",
-            "Networking opportunities",
-            "Behind-the-scenes conference experience"
-          ]
-        },
-        "time_commitment": {
-          "title": "Time Commitment",
-          "requirements": [
-            "Minimum 16 hours over conference period",
-            "Flexible scheduling around sessions you want to attend",
-            "Pre-conference orientation (2 hours)",
-            "Optional setup/teardown assistance"
-          ]
-        }
+      "who_can_volunteer": {
+        "title": "Who can volunteer?",
+        "description": "Anyone who would like to attend can volunteer!"
       },
-      "volunteer_roles": {
-        "title": "Volunteer Roles",
-        "registration_desk": {
-          "title": "Registration Desk",
-          "description": "Welcome attendees, distribute badges and materials, answer questions"
-        },
-        "session_support": {
-          "title": "Session Support",
-          "description": "Assist speakers with A/V equipment, manage Q&A, room setup"
-        },
-        "workshop_assistant": {
-          "title": "Workshop Assistant",
-          "description": "Help with hands-on workshops, technical support, material distribution"
-        },
-        "social_media": {
-          "title": "Social Media",
-          "description": "Live-tweet sessions, take photos, create social media content"
-        },
-        "exhibition_support": {
-          "title": "Exhibition Support",
-          "description": "Assist exhibitors, manage exhibition area, coordinate demos"
-        },
-        "local_guide": {
-          "title": "Local Guide",
-          "description": "Help international visitors, provide local information, translation support"
-        }
-      },
-      "requirements": {
-        "title": "Requirements",
-        "list": [
-          "Enthusiasm for open-source geospatial technologies",
-          "Good communication skills",
-          "Reliability and punctuality",
-          "Basic English proficiency (Japanese helpful but not required)",
-          "Ability to stand/walk for extended periods",
-          "Positive, helpful attitude"
+      "volunteer_tasks": {
+        "title": "What will you be doing as a volunteer?",
+        "description": "As a volunteer, we'd like you to support us during the conference period. You'll be assigned to a role half the time or less, the rest of the time you have full access to the conference.",
+        "tasks": [
+          "Helping out on the registration desk",
+          "Setting up and tidying up conference/workshop rooms",
+          "Helping people find conference/workshop rooms",
+          "Supporting the presenters in each room",
+          "Guiding people from the conference to social events (and then joining us at the social events!)"
         ]
       },
-      "application_process": {
-        "title": "Application Process",
-        "how_to_apply": {
-          "title": "How to Apply",
-          "steps": [
-            "Complete the online volunteer application form",
-            "Indicate your preferred volunteer roles and availability",
-            "Attend virtual orientation session (mandatory)",
-            "Receive volunteer assignment and schedule"
-          ]
-        },
-        "important_dates": {
-          "title": "Important Dates",
-          "dates": [
-            "Applications Open: February 1, 2026",
-            "Application Deadline: June 30, 2026",
-            "Volunteer Orientation: August 15, 2026",
-            "Conference Dates: August 30 - September 3, 2026"
-          ]
-        }
+      "benefits": {
+        "title": "What's in it for me?",
+        "description": "We have a range of perks to offer you for your help during our conference including:",
+        "perks": [
+          "Free registration to the conference (including catering for lunch)",
+          "Expand your knowledge and expertise in the field, and interact with other industry experts.",
+          "When not on duty, enjoy free access to the full conference experience, including over 100 insightful talks and hands-on workshops."
+        ]
       },
-      "ready_to_volunteer": {
-        "title": "Ready to Volunteer?",
-        "description": "Join our amazing volunteer team and be part of FOSS4G 2026 Hiroshima!",
-        "apply_button": "Apply to Volunteer",
+      "application_status": {
+        "title": "Application Status",
+        "description": "Information about future volunteer recruitment will be announced later."
+      },
+      "contact": {
+        "title": "Contact Information",
+        "description": "For questions about volunteering or information about future recruitment, please contact us at:",
         "email": "foss4g2026[at]osgeo.jp"
       }
     },
@@ -1170,48 +986,15 @@
           "Refund processed within 14 business days of confirmation"
         ]
       },
-      "special_circumstances": {
-        "title": "Special Circumstances",
-        "medical_emergency": {
-          "title": "Medical Emergency",
-          "description": "Full refund available with medical documentation, regardless of cancellation date. Medical certificate must be provided within 30 days of the conference."
-        },
-        "visa_denial": {
-          "title": "Visa Denial",
-          "description": "Full refund available for international attendees whose visa applications are denied. Official visa denial documentation required."
-        },
-        "force_majeure": {
-          "title": "Force Majeure",
-          "description": "In case of conference cancellation due to circumstances beyond our control (natural disasters, government restrictions, etc.), refund policies will be communicated separately based on the specific situation."
-        }
-      },
-      "transfer_policy": {
-        "title": "Transfer Policy",
-        "registration_transfer": {
-          "title": "Registration Transfer",
-          "description": "Registrations may be transferred to another person under the following conditions:",
-          "conditions": [
-            "Transfer request must be made before August 1, 2026",
-            "Transfer fee: ¥10,000",
-            "New attendee must meet the same registration category requirements",
-            "Both original and new attendee must confirm the transfer in writing"
-          ]
-        }
-      },
       "workshop_cancellations": {
         "title": "Workshop Cancellations",
         "description": "Workshop registrations follow the same refund schedule as conference registration.",
         "note": "Note: If a workshop is cancelled by the organizers, full refund will be provided for the workshop fee, regardless of the cancellation date."
       },
-      "no_show_policy": {
-        "title": "No-Show Policy",
-        "warning": "Important: No refunds will be issued for no-shows. If you cannot attend, please cancel your registration according to the policy above."
-      },
       "contact_information": {
         "title": "Contact Information",
-        "registration": "Registration & Cancellations: foss4g2026[at]osgeo.jp",
-        "phone": "Phone: +81-XX-XXXX-XXXX (Business hours: 9:00-17:00 JST)",
-        "note": "Please allow 3-5 business days for email responses during peak registration periods."
+        "description": "For cancellation inquiries, please contact:",
+        "email": "foss4g2026[at]osgeo.jp"
       }
     }
   },
@@ -1277,90 +1060,6 @@
       "overview": {
         "title": "Academic Track Overview",
         "description": "The Academic Track at FOSS4G 2026 Hiroshima provides a platform for researchers to present peer-reviewed scientific contributions to the open-source geospatial community. We welcome high-quality research papers that advance the state of knowledge in geospatial science and technology."
-      },
-      "research_areas": {
-        "title": "Research Areas",
-        "core_topics": {
-          "title": "Core Research Topics",
-          "items": [
-            "Spatial algorithms and computational geometry",
-            "Geospatial data structures and indexing",
-            "Distributed and cloud-based geospatial computing",
-            "Machine learning for geospatial applications",
-            "Spatial-temporal data mining",
-            "Geospatial visualization and cartography"
-          ]
-        },
-        "application_domains": {
-          "title": "Application Domains",
-          "items": [
-            "Climate change and environmental monitoring",
-            "Urban analytics and smart cities",
-            "Disaster risk reduction and management",
-            "Public health and epidemiology",
-            "Transportation and mobility",
-            "Agriculture and food security"
-          ]
-        }
-      },
-      "submission_guidelines": {
-        "title": "Submission Guidelines",
-        "paper_types": {
-          "title": "Paper Types",
-          "full_papers": {
-            "title": "Full Papers",
-            "description": "8-12 pages, original research contributions",
-            "presentation": "Presentation: 20 minutes + 5 minutes Q&A"
-          },
-          "short_papers": {
-            "title": "Short Papers",
-            "description": "4-6 pages, preliminary results or position papers",
-            "presentation": "Presentation: 15 minutes + 5 minutes Q&A"
-          }
-        },
-        "review_process": {
-          "title": "Review Process",
-          "items": [
-            "Double-blind peer review by at least 3 reviewers",
-            "Review criteria: novelty, technical quality, significance, clarity",
-            "Accepted papers will be published in conference proceedings",
-            "Best paper awards will be presented at the conference"
-          ]
-        },
-        "formatting_requirements": {
-          "title": "Formatting Requirements",
-          "items": [
-            "Papers must be written in English",
-            "Use the provided LaTeX or Word template",
-            "Include abstract (max 250 words) and keywords",
-            "All figures and tables must be of high quality",
-            "References must follow the specified citation style"
-          ]
-        }
-      },
-      "important_dates": {
-        "title": "Important Dates (Preliminary)",
-        "dates": [
-          "Call for Papers: December 1, 2025",
-          "Paper Submission Deadline: March 15, 2026",
-          "Review Period: March 16 - April 30, 2026",
-          "Notification of Acceptance: May 15, 2026",
-          "Camera-Ready Deadline: June 30, 2026",
-          "Conference Presentation: September 1-3, 2026"
-        ]
-      },
-      "publication": {
-        "title": "Publication",
-        "description": "Accepted papers will be published in the FOSS4G 2026 Hiroshima Conference Proceedings, which will be made available as open access. Selected high-quality papers may be invited for submission to a special issue of a relevant journal."
-      },
-      "program_committee": {
-        "title": "Program Committee",
-        "description": "The Academic Track Program Committee consists of renowned researchers from academia and industry. Committee members will be announced when the call for papers opens."
-      },
-      "contact": {
-        "title": "Questions?",
-        "description": "Contact the Academic Track chairs:",
-        "email": "foss4g2026[at]osgeo.jp"
       }
     },
     "workshop_proposals": {
@@ -1370,266 +1069,15 @@
       "overview": {
         "title": "Workshop Overview",
         "description": "FOSS4G 2026 Hiroshima workshops provide hands-on learning experiences with open-source geospatial tools and technologies. We invite proposals for half-day and full-day workshops that offer practical, interactive sessions for conference attendees."
-      },
-      "workshop_formats": {
-        "title": "Workshop Formats",
-        "half_day": {
-          "title": "Half-Day Workshop",
-          "details": [
-            "Duration: 4 hours (including breaks)",
-            "Maximum participants: 30",
-            "Format: Hands-on tutorial",
-            "Date: August 30-31, 2026"
-          ],
-          "note": "Ideal for focused skill-building sessions"
-        },
-        "full_day": {
-          "title": "Full-Day Workshop",
-          "details": [
-            "Duration: 8 hours (including lunch)",
-            "Maximum participants: 25",
-            "Format: Comprehensive training",
-            "Date: August 30-31, 2026"
-          ],
-          "note": "Perfect for in-depth technology exploration"
-        }
-      },
-      "popular_topics": {
-        "title": "Popular Workshop Topics",
-        "web_mapping": {
-          "title": "Web Mapping",
-          "tools": "OpenLayers, Leaflet, MapLibre GL JS"
-        },
-        "desktop_gis": {
-          "title": "Desktop GIS",
-          "tools": "QGIS, GRASS GIS, SAGA GIS"
-        },
-        "spatial_databases": {
-          "title": "Spatial Databases",
-          "tools": "PostGIS, SpatiaLite"
-        },
-        "remote_sensing": {
-          "title": "Remote Sensing",
-          "tools": "GDAL, Orfeo ToolBox"
-        },
-        "programming": {
-          "title": "Programming",
-          "tools": "Python, R, JavaScript"
-        },
-        "cloud_platforms": {
-          "title": "Cloud Platforms",
-          "tools": "GeoServer, MapServer"
-        }
-      },
-      "proposal_requirements": {
-        "title": "Proposal Requirements",
-        "intro": "Workshop proposals must include:",
-        "requirements": [
-          "Title and Abstract: Clear, descriptive title and 250-word abstract",
-          "Learning Objectives: 3-5 specific learning outcomes",
-          "Target Audience: Skill level and background requirements",
-          "Detailed Agenda: Hour-by-hour schedule with activities",
-          "Technical Requirements: Software, hardware, and data needs",
-          "Instructor Bio: Qualifications and teaching experience",
-          "Previous Experience: Past workshop delivery record"
-        ]
-      },
-      "instructor_benefits": {
-        "title": "Instructor Benefits",
-        "benefits": [
-          "Complimentary conference registration",
-          "Workshop materials and setup support",
-          "Technical assistance during the workshop",
-          "Promotion through conference channels",
-          "Certificate of instruction",
-          "Networking opportunities with participants"
-        ]
-      },
-      "technical_facilities": {
-        "title": "Technical Facilities",
-        "intro": "Workshop venues will provide:",
-        "facilities": [
-          "Computer lab with 30 workstations (Windows/Linux)",
-          "High-speed internet connectivity",
-          "Projector and audio system",
-          "Whiteboard and flip charts",
-          "Power outlets for personal laptops",
-          "Technical support staff"
-        ]
-      },
-      "selection_criteria": {
-        "title": "Selection Criteria",
-        "intro": "Proposals will be evaluated based on:",
-        "criteria": [
-          "Relevance to FOSS4G community (30%)",
-          "Quality of content and learning objectives (25%)",
-          "Instructor qualifications and experience (20%)",
-          "Innovation and uniqueness (15%)",
-          "Practical applicability (10%)"
-        ]
-      },
-      "important_dates": {
-        "title": "Important Dates (Preliminary)",
-        "dates": [
-          "Call for Workshops: January 15, 2026",
-          "Proposal Deadline: April 15, 2026",
-          "Review Period: April 16 - May 15, 2026",
-          "Notification: May 30, 2026",
-          "Final Materials Due: July 31, 2026",
-          "Workshop Dates: August 30-31, 2026"
-        ]
-      },
-      "contact": {
-        "title": "Ready to Propose a Workshop?",
-        "description": "Contact the workshop committee:",
-        "email": "foss4g2026[at]osgeo.jp",
-        "note": "We're here to help you create an amazing learning experience!"
       }
     },
     "code_sprint": {
       "title": "Code Sprint",
       "description": "Information about code sprint participation.",
       "coming_soon_message": "Code Sprint registration will open in March 2026",
-      "what_is_code_sprint": {
-        "title": "What is a Code Sprint?",
+      "overview": {
+        "title": "Code Sprint Overview",
         "description": "Code Sprints are collaborative coding events where developers, users, and contributors work together on open-source geospatial projects. These intensive sessions foster innovation, fix bugs, implement new features, and strengthen the FOSS4G community."
-      },
-      "event_info": {
-        "title": "FOSS4G 2026 Code Sprint",
-        "dates": "Dates: September 4-5, 2026 (Post-conference)",
-        "duration": "Duration: 2 full days",
-        "venue": "Venue: Hiroshima University (tentative)"
-      },
-      "who_should_participate": {
-        "title": "Who Should Participate?",
-        "developers": {
-          "title": "Developers",
-          "items": [
-            "Core project maintainers",
-            "Regular contributors",
-            "New developers wanting to contribute",
-            "Students learning open-source development"
-          ]
-        },
-        "non_developers": {
-          "title": "Non-Developers",
-          "items": [
-            "Documentation writers",
-            "UI/UX designers",
-            "Testers and quality assurance",
-            "Translators and localization experts"
-          ]
-        }
-      },
-      "participating_projects": {
-        "title": "Participating Projects",
-        "intro": "We welcome proposals from established FOSS4G projects. Priority will be given to projects that:",
-        "criteria": [
-          "Have active development communities",
-          "Provide clear contribution guidelines",
-          "Offer mentorship for new contributors",
-          "Have well-defined sprint goals"
-        ],
-        "categories": {
-          "desktop_gis": {
-            "title": "Desktop GIS",
-            "projects": "QGIS, GRASS GIS, SAGA"
-          },
-          "web_mapping": {
-            "title": "Web Mapping",
-            "projects": "OpenLayers, Leaflet, MapLibre"
-          },
-          "geospatial_libraries": {
-            "title": "Geospatial Libraries",
-            "projects": "GDAL, GEOS, PROJ"
-          },
-          "server_software": {
-            "title": "Server Software",
-            "projects": "GeoServer, MapServer"
-          },
-          "mobile_apps": {
-            "title": "Mobile Apps",
-            "projects": "QField, Input, NextGIS"
-          },
-          "data_tools": {
-            "title": "Data Tools",
-            "projects": "PostGIS, SpatiaLite"
-          }
-        }
-      },
-      "sprint_activities": {
-        "title": "Sprint Activities",
-        "development_tasks": {
-          "title": "Development Tasks",
-          "items": [
-            "Bug fixes and issue resolution",
-            "New feature implementation",
-            "Code refactoring and optimization",
-            "Testing and quality assurance",
-            "Performance improvements"
-          ]
-        },
-        "community_tasks": {
-          "title": "Community Tasks",
-          "items": [
-            "Documentation updates",
-            "Tutorial creation",
-            "Translation and localization",
-            "User interface improvements",
-            "Website and marketing materials"
-          ]
-        }
-      },
-      "what_we_provide": {
-        "title": "What We Provide",
-        "items": [
-          "Dedicated workspace with high-speed internet",
-          "Power outlets and extension cords",
-          "Whiteboards and presentation equipment",
-          "Coffee, snacks, and meals during sprint days",
-          "Technical support and coordination",
-          "Welcome reception and closing celebration"
-        ]
-      },
-      "registration_info": {
-        "title": "Registration Information",
-        "conference_attendees": {
-          "title": "Conference Attendees",
-          "price": "Free",
-          "note": "No additional fee for conference registrants"
-        },
-        "sprint_only": {
-          "title": "Sprint-Only Participants",
-          "price": "¥5,000",
-          "note": "Covers meals and materials"
-        }
-      },
-      "how_to_participate": {
-        "title": "How to Participate",
-        "steps": [
-          "Register for the Code Sprint (opens March 2026)",
-          "Choose your preferred project(s)",
-          "Join pre-sprint communication channels",
-          "Review project documentation and setup instructions",
-          "Attend the sprint and contribute!"
-        ]
-      },
-      "project_proposal_guidelines": {
-        "title": "Project Proposal Guidelines",
-        "intro": "Project maintainers interested in participating should submit:",
-        "requirements": [
-          "Project description and current status",
-          "Sprint goals and planned activities",
-          "Mentor availability and contact information",
-          "Setup instructions for new contributors",
-          "List of beginner-friendly tasks"
-        ]
-      },
-      "contact": {
-        "title": "Get Involved!",
-        "participants": "For Participants: foss4g2026[at]osgeo.jp",
-        "projects": "For Projects: foss4g2026[at]osgeo.jp",
-        "note": "Join our mailing list for updates and coordination!"
       }
     }
   },

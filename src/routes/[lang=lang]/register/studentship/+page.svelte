@@ -55,25 +55,6 @@
       {/each}
     </ul>
 
-    <h2 class="text-2xl font-semibold mb-4">{$t('register.studentship.student_activities.title')}</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-      <div class="bg-blue-50 p-6 rounded-lg">
-        <h3 class="text-lg font-semibold mb-2">{$t('register.studentship.student_activities.networking.title')}</h3>
-        <p class="text-sm">{$t('register.studentship.student_activities.networking.description')}</p>
-      </div>
-      <div class="bg-purple-50 p-6 rounded-lg">
-        <h3 class="text-lg font-semibold mb-2">{$t('register.studentship.student_activities.career_fair.title')}</h3>
-        <p class="text-sm">{$t('register.studentship.student_activities.career_fair.description')}</p>
-      </div>
-      <div class="bg-orange-50 p-6 rounded-lg">
-        <h3 class="text-lg font-semibold mb-2">{$t('register.studentship.student_activities.mentorship.title')}</h3>
-        <p class="text-sm">{$t('register.studentship.student_activities.mentorship.description')}</p>
-      </div>
-      <div class="bg-green-50 p-6 rounded-lg">
-        <h3 class="text-lg font-semibold mb-2">{$t('register.studentship.student_activities.presentations.title')}</h3>
-        <p class="text-sm">{$t('register.studentship.student_activities.presentations.description')}</p>
-      </div>
-    </div>
 
     <div class="bg-gray-50 p-6 rounded-lg">
       <h3 class="text-lg font-semibold mb-2">{$t('register.studentship.contact.title')}</h3>

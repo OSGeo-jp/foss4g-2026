@@ -17,84 +17,34 @@
   </div>
 
   <div class="prose max-w-none">
-    <h2 class="text-2xl font-semibold mb-4">{$t('register.volunteering.volunteer_benefits.title')}</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-      <div>
-        <h3 class="text-lg font-semibold mb-2">{$t('register.volunteering.volunteer_benefits.what_you_get.title')}</h3>
-        <ul class="list-disc pl-6 mb-4">
-          {#each $t('register.volunteering.volunteer_benefits.what_you_get.benefits') as benefit}
-            <li>{benefit}</li>
-          {/each}
-        </ul>
-      </div>
-      <div>
-        <h3 class="text-lg font-semibold mb-2">{$t('register.volunteering.volunteer_benefits.time_commitment.title')}</h3>
-        <ul class="list-disc pl-6 mb-4">
-          {#each $t('register.volunteering.volunteer_benefits.time_commitment.requirements') as requirement}
-            <li>{requirement}</li>
-          {/each}
-        </ul>
-      </div>
-    </div>
+    <h2 class="text-2xl font-semibold mb-4">{$t('register.volunteering.who_can_volunteer.title')}</h2>
+    <p class="mb-6">{$t('register.volunteering.who_can_volunteer.description')}</p>
 
-    <h2 class="text-2xl font-semibold mb-4">{$t('register.volunteering.volunteer_roles.title')}</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-      <div class="bg-blue-50 p-4 rounded-lg">
-        <h3 class="font-semibold mb-2">{$t('register.volunteering.volunteer_roles.registration_desk.title')}</h3>
-        <p class="text-sm">{$t('register.volunteering.volunteer_roles.registration_desk.description')}</p>
-      </div>
-      <div class="bg-green-50 p-4 rounded-lg">
-        <h3 class="font-semibold mb-2">{$t('register.volunteering.volunteer_roles.session_support.title')}</h3>
-        <p class="text-sm">{$t('register.volunteering.volunteer_roles.session_support.description')}</p>
-      </div>
-      <div class="bg-yellow-50 p-4 rounded-lg">
-        <h3 class="font-semibold mb-2">{$t('register.volunteering.volunteer_roles.workshop_assistant.title')}</h3>
-        <p class="text-sm">{$t('register.volunteering.volunteer_roles.workshop_assistant.description')}</p>
-      </div>
-      <div class="bg-red-50 p-4 rounded-lg">
-        <h3 class="font-semibold mb-2">{$t('register.volunteering.volunteer_roles.social_media.title')}</h3>
-        <p class="text-sm">{$t('register.volunteering.volunteer_roles.social_media.description')}</p>
-      </div>
-      <div class="bg-indigo-50 p-4 rounded-lg">
-        <h3 class="font-semibold mb-2">{$t('register.volunteering.volunteer_roles.exhibition_support.title')}</h3>
-        <p class="text-sm">{$t('register.volunteering.volunteer_roles.exhibition_support.description')}</p>
-      </div>
-      <div class="bg-pink-50 p-4 rounded-lg">
-        <h3 class="font-semibold mb-2">{$t('register.volunteering.volunteer_roles.local_guide.title')}</h3>
-        <p class="text-sm">{$t('register.volunteering.volunteer_roles.local_guide.description')}</p>
-      </div>
-    </div>
-
-    <h2 class="text-2xl font-semibold mb-4">{$t('register.volunteering.requirements.title')}</h2>
+    <h2 class="text-2xl font-semibold mb-4">{$t('register.volunteering.volunteer_tasks.title')}</h2>
+    <p class="mb-4">{$t('register.volunteering.volunteer_tasks.description')}</p>
     <ul class="list-disc pl-6 mb-6">
-      {#each $t('register.volunteering.requirements.list') as requirement}
-        <li>{requirement}</li>
+      {#each $t('register.volunteering.volunteer_tasks.tasks') as task}
+        <li>{task}</li>
       {/each}
     </ul>
 
-    <h2 class="text-2xl font-semibold mb-4">{$t('register.volunteering.application_process.title')}</h2>
+    <h2 class="text-2xl font-semibold mb-4">{$t('register.volunteering.benefits.title')}</h2>
+    <p class="mb-4">{$t('register.volunteering.benefits.description')}</p>
+    <ul class="list-disc pl-6 mb-6">
+      {#each $t('register.volunteering.benefits.perks') as perk}
+        <li>{perk}</li>
+      {/each}
+    </ul>
+
+    <h2 class="text-2xl font-semibold mb-4">{$t('register.volunteering.application_status.title')}</h2>
     <div class="bg-gray-50 p-6 rounded-lg mb-8">
-      <h3 class="text-lg font-semibold mb-2">{$t('register.volunteering.application_process.how_to_apply.title')}</h3>
-      <ol class="list-decimal pl-6 mb-4">
-        {#each $t('register.volunteering.application_process.how_to_apply.steps') as step}
-          <li>{step}</li>
-        {/each}
-      </ol>
-      
-      <h3 class="text-lg font-semibold mb-2">{$t('register.volunteering.application_process.important_dates.title')}</h3>
-      <ul class="list-disc pl-6">
-        {#each $t('register.volunteering.application_process.important_dates.dates') as date}
-          <li><strong>{date}</strong></li>
-        {/each}
-      </ul>
+      <p>{$t('register.volunteering.application_status.description')}</p>
     </div>
 
-    <div class="text-center">
-      <h2 class="text-2xl font-semibold mb-4">{$t('register.volunteering.ready_to_volunteer.title')}</h2>
-      <p class="mb-6">{$t('register.volunteering.ready_to_volunteer.description')}</p>
-      <a href="mailto:{$t('register.volunteering.ready_to_volunteer.email')}" class="btn btn-primary">
-        {$t('register.volunteering.ready_to_volunteer.apply_button')}
-      </a>
+    <div class="bg-blue-50 p-6 rounded-lg">
+      <h3 class="text-lg font-semibold mb-2">{$t('register.volunteering.contact.title')}</h3>
+      <p class="text-sm mb-2">{$t('register.volunteering.contact.description')}</p>
+      <p class="text-sm font-semibold">{$t('register.volunteering.contact.email')}</p>
     </div>
   </div>
 </div>

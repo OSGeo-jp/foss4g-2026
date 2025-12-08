@@ -93,15 +93,48 @@
     }
   },
   "nav": {
+    "home": "Home",
+    "about": "About",
     "register": "Register",
-    "about": {
-      "news": "News",
+    "call_for_papers": "Call for Papers",
+    "program_schedule": "Program Schedule",
+    "attending": "Attending",
+    "contact": "Contact",
+    "about_sub": {
       "foss4g": "About FOSS4G",
+      "map": "Map",
       "organizers": "Organizers",
-      "logo": "Our Logo",
+      "concept": "Concept",
       "code_of_conduct": "Code of Conduct",
       "privacy_policy": "Privacy Policy",
-      "terms_and_conditions": "Terms and Conditions"
+      "terms_conditions": "Terms and Conditions",
+      "sponsors": "Information for Sponsors"
+    },
+    "register_sub": {
+      "registration": "Registration",
+      "studentship": "Studentship Program",
+      "travel_grant": "Travel Grant Program",
+      "volunteering": "Volunteering",
+      "cancellation": "Cancellation Policy"
+    },
+    "cfp_sub": {
+      "general_sessions": "General Sessions",
+      "academic_track": "Academic Track",
+      "workshops": "Workshop Proposals",
+      "code_sprint": "Code Sprint"
+    },
+    "program_sub": {
+      "outline": "Outline",
+      "keynote": "Keynote Speakers",
+      "presentations": "Presentations",
+      "workshops": "Workshops",
+      "events": "Events"
+    },
+    "attending_sub": {
+      "venue": "Conference Venue",
+      "transport": "Transport Information",
+      "travel_guide": "Travel Guide",
+      "accommodation": "Accommodation"
     },
     "attend": {
       "register": "Register",
@@ -110,7 +143,6 @@
       "conference_venue": "Conference Venue",
       "entry_into_hiroshima": "Entry into Hiroshima",
       "travel_guide": "Travel Guide",
-      "adventure_guide": "Adventure Guide",
       "accommodation": "Accommodation"
     },
     "program": {
@@ -142,6 +174,959 @@
     },
     "description": {
       "main_venue": "International Conference Center Hiroshima"
+    }
+  },
+  "common": {
+    "coming_soon": "Coming Soon"
+  },
+  "program_outline": {
+    "title": "Program Outline",
+    "coming_soon_message": "Detailed program will be published in July 2026",
+    "schedule_glance": {
+      "title": "Schedule at a Glance",
+      "table": {
+        "headers": ["Date", "Event", "Venue", "Duration"],
+        "rows": [
+          ["August 30 (Sat)", "Workshops Day 1", "RCC Bunka Center", "9:00 - 17:00"],
+          ["August 31 (Sun)", "Workshops Day 2", "RCC Bunka Center", "9:00 - 17:00"],
+          ["September 1 (Mon)", "Main Conference Day 1", "Int'l Conference Center", "9:00 - 18:00"],
+          ["September 2 (Tue)", "Main Conference Day 2", "Int'l Conference Center", "9:00 - 18:00"],
+          ["September 3 (Wed)", "Main Conference Day 3", "Int'l Conference Center", "9:00 - 17:00"],
+          ["September 4 (Thu)", "Code Sprint Day 1", "Hiroshima University", "9:00 - 18:00"],
+          ["September 5 (Fri)", "Code Sprint Day 2", "Hiroshima University", "9:00 - 17:00"]
+        ]
+      }
+    }
+  },
+  "keynote": {
+    "title": "Keynote Speakers",
+    "coming_soon_message": "Keynote speakers will be announced in Spring 2026",
+    "program": {
+      "title": "Keynote Program",
+      "description": "FOSS4G 2026 Hiroshima will feature three inspiring keynote presentations from world-renowned experts in geospatial technology, open-source development, and humanitarian applications."
+    },
+    "schedule": {
+      "day1": {
+        "title": "Day 1 Keynote",
+        "date": "September 1, 9:30-10:30",
+        "speaker": "Speaker TBA",
+        "topic": "Topic: Opening & Vision"
+      },
+      "day2": {
+        "title": "Day 2 Keynote",
+        "date": "September 2, 9:30-10:30",
+        "speaker": "Speaker TBA",
+        "topic": "Topic: Innovation & Technology"
+      },
+      "day3": {
+        "title": "Day 3 Keynote",
+        "date": "September 3, 9:30-10:30",
+        "speaker": "Speaker TBA",
+        "topic": "Topic: Community & Future"
+      },
+      "tba": "TBA"
+    },
+    "selection_criteria": {
+      "title": "Selection Criteria",
+      "description": "Our keynote speakers are selected based on:",
+      "criteria": [
+        "Significant contributions to open-source geospatial community",
+        "Leadership in technological innovation",
+        "Impact on humanitarian and social applications",
+        "Ability to inspire and engage diverse audiences",
+        "Alignment with conference themes and values"
+      ]
+    },
+    "stay_updated": {
+      "title": "Stay Updated",
+      "description": "Follow our announcements for keynote speaker reveals and presentation topics!"
+    }
+  },
+  "presentations": {
+    "title": "Presentations",
+    "coming_soon_message": "Program details will be available in July 2026",
+    "intro": {
+      "description": "Detailed information about presentations will be published once the call for papers closes and the program committee completes the review process."
+    },
+    "overview": {
+      "title": "Presentation Overview",
+      "description": "FOSS4G 2026 Hiroshima will feature a wide range of presentations covering the latest trends in geospatial technology to practical application cases."
+    },
+    "session_types": {
+      "title": "Session Types",
+      "standard": {
+        "title": "Standard Presentations",
+        "duration": "25 minutes (20 min talk + 5 min Q&A)",
+        "description": "Detailed presentations of research results, technical developments, and application cases"
+      },
+      "lightning": {
+        "title": "Lightning Talks",
+        "duration": "5 minutes (no Q&A)",
+        "description": "Quick idea sharing, project introductions, and breaking news presentations"
+      },
+      "poster": {
+        "title": "Poster Sessions",
+        "duration": "Interactive format during lunch breaks",
+        "description": "Interactive displays and discussion opportunities"
+      }
+    },
+    "tracks": {
+      "title": "Presentation Tracks",
+      "description": "Presentations will be organized into the following tracks:",
+      "technical": "Technical Track - Development, algorithms, performance",
+      "applications": "Applications Track - Use cases, case studies, implementations",
+      "community": "Community Track - Governance, sustainability, collaboration",
+      "academic": "Academic Track - Research, peer-reviewed papers",
+      "humanitarian": "Humanitarian Track - Disaster response, social impact",
+      "business": "Business Track - Commercial applications, business models"
+    },
+    "submission_info": {
+      "title": "Submission Information",
+      "description": "Call for presentations will be open from December 2025 to March 2026.",
+      "topics": {
+        "title": "Suggested Topics",
+        "list": [
+          "Development and improvement of open-source GIS software",
+          "Geospatial data processing and analysis methods",
+          "WebGIS and cloud-based geospatial services",
+          "Remote sensing and Earth observation data utilization",
+          "Location-based services and mobile GIS",
+          "Disaster management and emergency response applications",
+          "Urban planning and transportation system applications",
+          "Environmental monitoring and climate change mitigation",
+          "Agriculture and food security applications",
+          "Education and capacity building"
+        ]
+      }
+    },
+    "review_process": {
+      "title": "Review Process",
+      "description": "All presentation submissions will undergo rigorous review by experts in the geospatial field.",
+      "criteria": {
+        "title": "Review Criteria",
+        "list": [
+          "Technical quality and innovation",
+          "Contribution to open-source community",
+          "Practical applicability and usefulness",
+          "Clarity and organization of presentation",
+          "Relevance to conference themes"
+        ]
+      }
+    },
+    "important_dates": {
+      "title": "Important Dates",
+      "submission_open": "Call for Presentations Opens: December 2025",
+      "submission_deadline": "Submission Deadline: March 31, 2026",
+      "notification": "Notification: May 15, 2026",
+      "final_submission": "Final Paper Submission: July 15, 2026"
+    }
+  },
+  "events": {
+    "title": "Events",
+    "coming_soon_message": "Program details will be available in July 2026",
+    "intro": {
+      "description": "Detailed information about events will be published once the call for papers closes and the program committee completes the review process."
+    },
+    "overview": {
+      "title": "Event Overview",
+      "description": "FOSS4G 2026 Hiroshima will feature various events to foster networking and interaction among participants, in addition to technical sessions."
+    },
+    "social_events": {
+      "title": "Social Events",
+      "welcome_reception": "Welcome Reception - September 1 evening",
+      "gala_dinner": "Gala Dinner - September 2 evening",
+      "networking": "Networking Sessions - Coffee breaks each day"
+    }
+  },
+  "workshops": {
+    "title": "Workshops",
+    "coming_soon_message": "Program details will be available in July 2026",
+    "intro": {
+      "description": "Detailed information about workshops will be published once the call for papers closes and the program committee completes the review process."
+    },
+    "overview": {
+      "title": "Workshop Overview",
+      "description": "FOSS4G 2026 Hiroshima will host practical hands-on workshops over two days, August 30 and 31."
+    },
+    "schedule": {
+      "title": "Schedule",
+      "day1": "August 30 (Sat) - Workshop Day 1",
+      "day2": "August 31 (Sun) - Workshop Day 2",
+      "time": "Each day 9:00 - 17:00",
+      "venue": "Venue: RCC Bunka Center"
+    }
+  },
+  "venue": {
+    "title": "Venue",
+    "main_venue": {
+      "title": "International Conference Center Hiroshima",
+      "description": "The main conference venue is the International Conference Center Hiroshima, a state-of-the-art facility located in the heart of Hiroshima's Peace Memorial Park."
+    },
+    "facilities": {
+      "title": "Facilities",
+      "main_auditorium": "Main auditorium (1,500 seats)",
+      "breakout_rooms": "Multiple breakout rooms",
+      "exhibition_hall": "Exhibition hall",
+      "wifi": "High-speed WiFi throughout",
+      "accessible": "Accessible facilities"
+    },
+    "address": {
+      "title": "Address",
+      "full_address": "1-5 Nakajima-cho, Naka-ku, Hiroshima 730-0811, Japan",
+      "note": "5-minute walk from Peace Memorial Park"
+    },
+    "placeholders": {
+      "venue_photo": "Venue Photo Placeholder",
+      "venue_map": "Venue Map Placeholder"
+    },
+    "workshop_venue": {
+      "title": "Workshop Venue",
+      "name": "RCC Bunka Center",
+      "description": "Hands-on workshops will be held at RCC Bunka Center, equipped with computer labs and technical facilities."
+    }
+  },
+  "transport": {
+    "title": "Transportation",
+    "getting_to_hiroshima": {
+      "title": "Getting to Hiroshima",
+      "by_air": {
+        "title": "By Air",
+        "hiroshima_airport": "Hiroshima Airport (HIJ)",
+        "description": "Main international gateway to Hiroshima",
+        "limousine_bus": "Airport limousine bus (45 minutes, ¥1,370)"
+      },
+      "by_train": {
+        "title": "By Train (Shinkansen)",
+        "description": "The fastest and most convenient way to reach Hiroshima from major Japanese cities",
+        "from_tokyo": "From Tokyo: 4 hours, ¥19,440",
+        "from_osaka": "From Osaka: 1.5 hours, ¥10,330"
+      }
+    },
+    "local_transport": {
+      "title": "Local Transportation in Hiroshima",
+      "streetcar": {
+        "title": "Hiroshima Streetcar",
+        "fare": "Flat fare: ¥220",
+        "day_pass": "Day pass: ¥700"
+      },
+      "bus": {
+        "title": "Buses",
+        "fare": "Fares vary by distance: ¥220-¥500"
+      }
+    },
+    "venue_access": {
+      "title": "Conference Venue Access",
+      "to_venue": "To International Conference Center Hiroshima",
+      "from_station": "From Hiroshima Station: Streetcar Line 2 to Genbaku-Dome-mae (15 min)",
+      "walking": "5 minutes walk from Peace Memorial Park"
+    }
+  },
+  "travel_guide": {
+    "title": "Travel Guide",
+    "intro": {
+      "description": "Comprehensive travel guide for international visitors will be available in early 2026."
+    },
+    "coming_soon": {
+      "title": "Coming Soon",
+      "description": "Visa information, cultural tips, and practical travel advice for FOSS4G 2026 attendees."
+    },
+    "basic_info": {
+      "title": "Basic Information",
+      "visa": "Visa Information - Short-term stays from many countries possible with tourist visa",
+      "currency": "Currency - Japanese Yen (JPY)",
+      "language": "Language - Japanese (English widely understood in major areas)",
+      "emergency": "Emergency - Police: 110, Fire/Ambulance: 119"
+    }
+  },
+  "accommodation": {
+    "title": "Accommodation",
+    "recommended_hotels": {
+      "title": "Recommended Hotels",
+      "description": "We have negotiated special rates with several hotels near the conference venue. Booking information will be available with your registration confirmation."
+    },
+    "hotel_types": {
+      "luxury": {
+        "title": "Luxury Hotels",
+        "price": "¥15,000-25,000 per night",
+        "features": [
+          "Full-service amenities",
+          "English-speaking staff",
+          "Conference shuttle service"
+        ]
+      },
+      "business": {
+        "title": "Business Hotels",
+        "price": "¥8,000-15,000 per night",
+        "features": [
+          "Compact, efficient rooms",
+          "Central locations",
+          "Good value for money"
+        ]
+      }
+    },
+    "booking_info": {
+      "title": "Booking Information",
+      "description": "Hotel booking details and special conference rates will be sent to registered attendees in Spring 2026."
+    }
+  },
+  "about": {
+    "title": "About",
+    "foss4g": {
+      "title": "About FOSS4G",
+      "intro": "FOSS4G is an acronym for Free and Open Source Software for Geospatial, and it represents the world's largest international conference organized by OSGeo, a non-profit organization dedicated to promoting open-source GIS. This conference, held in various locations around the world, attracts over 1,000 participants annually and has evolved into the flagship event representing the geospatial community.",
+      "hiroshima_section": {
+        "title": "FOSS4G 2026 Comes to Hiroshima",
+        "content": "In 2026, FOSS4G will be held in Hiroshima, Japan. In this city that symbolizes peace, advocates of \"free and open\" geospatial information from around the world will gather. Let us expand the possibilities of open-source GIS together here in Hiroshima."
+      },
+      "knowledge_section": {
+        "title": "Convergence of All Geospatial Knowledge",
+        "intro": "FOSS4G covers a wide range of topics including:",
+        "topics": [
+          "Open-source GIS software development",
+          "Geospatial tool use cases and applications",
+          "Application development",
+          "Earth observation data utilization",
+          "Cutting-edge education and research",
+          "Open data provision and operations"
+        ],
+        "conclusion": "It serves as a platform where participants with diverse expertise and backgrounds learn from each other and share the latest insights."
+      },
+      "participation_section": {
+        "title": "Open to Everyone",
+        "intro": "FOSS4G is an event for everyone interested in maps. We welcome not only developers who write code, but also GIS users, decision-makers, researchers, students, and even beginners who are \"just a little curious.\"",
+        "community": "Nearly 1,000 people participate in FOSS4G each year, and this community continues to grow. Whether you are a geospatial information professional or attending for the first time, as long as you have an \"open mind,\" FOSS4G is your place."
+      },
+      "closing_section": {
+        "title": "See You at FOSS4G 2026 Hiroshima!",
+        "content": "Let us create the future of free and open geospatial together. We look forward to welcoming you in Hiroshima."
+      }
+    },
+    "map": {
+      "title": "Map",
+      "venues_title": "Conference Venues",
+      "main_venue": {
+        "title": "Main Venue",
+        "name": "International Conference Center Hiroshima",
+        "dates": "Main conference days: September 1-3, 2026"
+      },
+      "workshop_venue": {
+        "title": "Workshop Venue",
+        "name": "RCC Bunka Center",
+        "dates": "Hands-on workshop days: August 30-31, 2026"
+      }
+    },
+    "organizer": {
+      "title": "Organizers",
+      "roles": {
+        "co_chair": "Co-Chair",
+        "program_committee_chair": "Program Committee Chair"
+      },
+      "sample_organizers": {
+        "co_chair_1": {
+          "name": "Dr. Sample Name",
+          "organization": "University/Organization",
+          "description": "Brief description of the organizer's background and role in FOSS4G community."
+        },
+        "co_chair_2": {
+          "name": "Prof. Sample Name",
+          "organization": "University/Organization",
+          "description": "Brief description of the organizer's background and role in FOSS4G community."
+        },
+        "program_chair": {
+          "name": "Dr. Sample Name",
+          "organization": "University/Organization",
+          "description": "Brief description of the organizer's background and role in FOSS4G community."
+        }
+      },
+      "organizing_committee": {
+        "title": "Organizing Committee",
+        "description_1": "The FOSS4G 2026 Hiroshima organizing committee consists of dedicated volunteers from the Japanese and international geospatial community. Our team brings together expertise in open source geospatial technologies, event management, and local knowledge of Hiroshima.",
+        "description_2": "Detailed information about all organizing committee members will be updated as the conference approaches."
+      },
+      "photo_placeholder": "Photo"
+    },
+    "concept": {
+      "title": "Concept",
+      "theme": {
+        "title": "Bridging Geospatial Technology and Humanity",
+        "subtitle": "FOSS4G 2026 Hiroshima Conference Theme"
+      },
+      "vision": {
+        "title": "Our Vision",
+        "paragraph_1": "At FOSS4G Hiroshima 2026, we explore how open-source geospatial technologies can serve humanity's greatest challenges. As a \"City of Peace and Reconstruction,\" Hiroshima provides the perfect backdrop to examine technology's role in fostering empathy, inclusion, and international collaboration.",
+        "paragraph_2": "Geospatial technology empowers communities to address real-world challenges such as disaster response, urban planning, and environmental resilience. At FOSS4G Hiroshima 2026, we will further highlight the humanitarian applications of open-source geospatial technologies — from supporting refugees to preserving cultural memory."
+      },
+      "hiroshima": {
+        "title": "Why Hiroshima?",
+        "paragraph_1": "Hiroshima's commitment to peace and international understanding aligns perfectly with the open-source philosophy of collaboration and shared knowledge.",
+        "paragraph_2": "In this special place, let us discuss together how geospatial technology can contribute to a more peaceful, sustainable, and intricately connected world, and what the future holds."
+      },
+      "logo": {
+        "title": "Conference Logo",
+        "description": "The FOSS4G Hiroshima 2026 logo embodies our wish for the coexistence of technology and humanity.",
+        "placeholder": "Logo Placeholder",
+        "paragraph_1": "The intricate and delicate lines depicted in the logo are inspired by the fold marks of the \"origami crane,\" beloved in Japan as a symbol of peace. These lines form shapes that symbolize the \"connections\" and \"expansions\" inherent in geospatial technology, while reflecting the message of peace that Hiroshima continues to send to the world. The color scheme adopts red, which symbolizes Japan and Hiroshima.",
+        "paragraph_2": "The origami crane is also known from the story that \"folding a thousand cranes will grant your wish,\" and is cherished by many as a symbol of prayer, hope, and solidarity.",
+        "conclusion": "The gathering of people from around the world at FOSS4G Hiroshima 2026 will, like a thousand paper cranes that bundle together many people's wishes, create the power to connect technology and humanity and shape a new future together."
+      }
+    },
+    "code_of_conduct": {
+      "title": "Code of Conduct",
+      "commitment": {
+        "title": "Our Commitment",
+        "content": "FOSS4G 2026 Hiroshima is committed to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion, or technology choices."
+      },
+      "expected_behavior": {
+        "title": "Expected Behavior",
+        "items": [
+          "Participate in an authentic and active way",
+          "Exercise consideration and respect in your speech and actions",
+          "Attempt collaboration before conflict",
+          "Refrain from demeaning, discriminatory, or harassing behavior and speech",
+          "Be mindful of your surroundings and of your fellow participants"
+        ]
+      },
+      "unacceptable_behavior": {
+        "title": "Unacceptable Behavior",
+        "intro": "Unacceptable behaviors include:",
+        "items": [
+          "Intimidating, harassing, abusive, discriminatory, derogatory or demeaning speech or actions",
+          "Sexual language and imagery in any conference venue",
+          "Harmful or prejudicial verbal or written comments related to gender, sexual orientation, race, religion, disability",
+          "Inappropriate use of nudity and/or sexual images",
+          "Real or implied threat of professional or personal damage",
+          "Inappropriate disruption of presentations or other conference events",
+          "Inappropriate photography or recording"
+        ]
+      },
+      "consequences": {
+        "title": "Consequences",
+        "content": "Anyone asked to stop unacceptable behavior is expected to comply immediately. Conference organizers may take any action they deem appropriate, including warning the offender or expulsion from the conference without refund."
+      },
+      "reporting": {
+        "title": "Reporting",
+        "intro": "If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a conference organizer as soon as possible.",
+        "contact_title": "Contact Information",
+        "email": "Email",
+        "phone": "Phone",
+        "phone_note": "(during conference)",
+        "confidentiality": "All reports will be handled with discretion and confidentiality."
+      }
+    },
+    "privacy_policy": {
+      "title": "Privacy Policy",
+      "intro": "This Privacy Policy describes how FOSS4G 2026 Hiroshima collects, uses, and protects your personal information.",
+      "information_collect": {
+        "title": "Information We Collect",
+        "items": [
+          "Registration information (name, email, affiliation, dietary requirements)",
+          "Payment information (processed securely through third-party providers)",
+          "Communication preferences",
+          "Website usage data (cookies, analytics)"
+        ]
+      },
+      "how_we_use": {
+        "title": "How We Use Your Information",
+        "items": [
+          "Conference registration and management",
+          "Communication about conference updates",
+          "Dietary and accessibility accommodations",
+          "Improving our services and website"
+        ]
+      },
+      "data_protection": {
+        "title": "Data Protection",
+        "content": "We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. Your data is stored securely and accessed only by authorized personnel."
+      },
+      "your_rights": {
+        "title": "Your Rights",
+        "intro": "You have the right to:",
+        "items": [
+          "Access your personal data",
+          "Correct inaccurate information",
+          "Request deletion of your data",
+          "Withdraw consent for marketing communications"
+        ]
+      },
+      "contact": {
+        "title": "Contact Us",
+        "content": "For privacy-related questions:"
+      }
+    },
+    "terms_conditions": {
+      "title": "Terms and Conditions for Registration",
+      "registration_terms": {
+        "title": "Registration Terms",
+        "intro": "By registering for FOSS4G 2026 Hiroshima, you agree to the following terms and conditions:"
+      },
+      "payment_refunds": {
+        "title": "Payment and Refunds",
+        "items": [
+          "Full payment is required at the time of registration",
+          "Refunds are available according to our cancellation policy",
+          "No refunds will be issued for no-shows",
+          "Registration fees are non-transferable between individuals"
+        ]
+      },
+      "cancellation_policy": {
+        "title": "Cancellation Policy",
+        "link_text": "For detailed cancellation policy and refund terms, please refer to our",
+        "link_label": "Cancellation Policy page",
+        "link_suffix": "."
+      },
+      "conference_participation": {
+        "title": "Conference Participation",
+        "items": [
+          "Attendees must comply with the conference code of conduct",
+          "Photography and recording may occur during sessions",
+          "Presentation materials may be shared publicly",
+          "Conference organizers reserve the right to modify the program"
+        ]
+      },
+      "liability": {
+        "title": "Liability",
+        "content": "FOSS4G 2026 Hiroshima organizers are not liable for any personal injury, loss, or damage to property that may occur during the conference. Attendees participate at their own risk."
+      },
+      "force_majeure": {
+        "title": "Force Majeure",
+        "content": "In the event of circumstances beyond our control (natural disasters, government restrictions, etc.), the conference may be postponed, cancelled, or moved to a virtual format. Refund policies will be communicated in such cases."
+      },
+      "important_note": {
+        "title": "Important Note",
+        "content": "These terms are preliminary and subject to change. Final terms and conditions will be provided during the registration process in 2026."
+      }
+    },
+    "sponsors": {
+      "title": "Sponsors",
+      "intro": "FOSS4G 2026 Hiroshima offers unique sponsorship opportunities to connect with the global geospatial community. Join us in supporting open-source geospatial technologies and humanitarian applications.",
+      "diamond": {
+        "title": "Diamond Sponsor",
+        "price": "¥5,000,000",
+        "benefits": [
+          "Logo on all conference materials",
+          "Keynote speaking opportunity",
+          "Premium exhibition space",
+          "15 complimentary registrations",
+          "Exclusive networking reception",
+          "Customized sponsorship package"
+        ]
+      },
+      "platinum": {
+        "title": "Platinum Sponsor",
+        "price": "¥3,500,000",
+        "benefits": [
+          "Logo on all conference materials",
+          "Keynote speaking opportunity",
+          "Premium exhibition space",
+          "10 complimentary registrations",
+          "Exclusive networking reception"
+        ]
+      },
+      "gold": {
+        "title": "Gold Sponsor",
+        "price": "¥2,000,000",
+        "benefits": [
+          "Logo on conference website and materials",
+          "Exhibition space",
+          "6 complimentary registrations",
+          "Workshop hosting opportunity",
+          "Social media promotion"
+        ]
+      },
+      "silver": {
+        "title": "Silver Sponsor",
+        "price": "¥1,000,000",
+        "benefits": [
+          "Logo on conference website",
+          "Small exhibition space",
+          "4 complimentary registrations",
+          "Networking opportunities"
+        ]
+      },
+      "bronze": {
+        "title": "Bronze Sponsor",
+        "price": "¥500,000",
+        "benefits": [
+          "Logo on conference website",
+          "2 complimentary registrations",
+          "Promotional materials in welcome bag"
+        ]
+      },
+      "why_sponsor": {
+        "title": "Why Sponsor FOSS4G 2026?",
+        "global_reach": {
+          "title": "Global Reach",
+          "description": "Connect with 800+ geospatial professionals from around the world"
+        },
+        "innovation_focus": {
+          "title": "Innovation Focus",
+          "description": "Showcase your commitment to open-source and humanitarian technology"
+        },
+        "networking": {
+          "title": "Networking",
+          "description": "Build relationships with key decision-makers and technical experts"
+        },
+        "brand_visibility": {
+          "title": "Brand Visibility",
+          "description": "Increase brand awareness in the geospatial community"
+        }
+      },
+      "interested": {
+        "title": "Interested in Sponsoring?",
+        "description": "Contact our sponsorship team to discuss custom packages and opportunities.",
+        "contact_button": "Contact Sponsorship Team"
+      }
+    }
+  },
+  "register": {
+    "title": "Register",
+    "registration": {
+      "title": "Registration",
+      "type": "Registration Type",
+      "price": "Price",
+      "early_bird": "Early Bird",
+      "regular": "Regular",
+      "fees_title": "Registration Fees (Preliminary)",
+      "fees_note": "Note: Registration fees are preliminary and subject to change. Final pricing will be announced in early 2026.",
+      "registration_types": [
+        ["Early Bird (until March 31, 2026)", "¥65,000"],
+        ["Regular (April 1 - July 31, 2026)", "¥90,000"],
+        ["Student Early Bird", "¥25,000"],
+        ["Student Regular", "¥35,000"],
+        ["Workshop (per workshop)", "¥15,000"]
+      ],
+      "whats_included": {
+        "title": "What's Included",
+        "items": [
+          "Access to all main conference sessions (September 1-3)",
+          "Conference materials and welcome package",
+          "Coffee breaks and networking sessions",
+          "Access to exhibition area",
+          "Digital access to presentation materials"
+        ]
+      },
+      "registration_process": {
+        "title": "Registration Process",
+        "description": "Registration will open in December 2025. Detailed instructions and the registration portal will be available on this website closer to the opening date."
+      }
+    },
+    "studentship": {
+      "title": "Student Program",
+      "description": "Details about student discounts and eligibility.",
+      "special_rates": {
+        "title": "Special Student Rates Available!",
+        "description": "FOSS4G 2026 Hiroshima offers significantly reduced registration fees for students to encourage participation from the next generation of geospatial professionals."
+      },
+      "eligibility": {
+        "title": "Eligibility Requirements",
+        "requirements": [
+          "Currently enrolled as a full-time student at an accredited institution",
+          "Pursuing undergraduate, graduate, or doctoral studies",
+          "Valid student ID or enrollment verification required",
+          "Student status must be current at the time of conference (August-September 2026)"
+        ]
+      },
+      "student_fees": {
+        "title": "Student Registration Fees",
+        "early_bird": {
+          "title": "Student Early Bird",
+          "price": "¥25,000",
+          "period": "Until March 31, 2026"
+        },
+        "regular": {
+          "title": "Student Regular",
+          "price": "¥35,000",
+          "period": "April 1 - July 31, 2026"
+        }
+      },
+      "whats_included": {
+        "title": "What's Included",
+        "items": [
+          "Full access to all conference sessions",
+          "Welcome package and conference materials",
+          "Coffee breaks and networking opportunities"
+        ]
+      },
+      "required_documentation": {
+        "title": "Required Documentation",
+        "description": "To qualify for student rates, you must provide:",
+        "documents": [
+          "Copy of current student ID (both sides)",
+          "Official enrollment verification letter from your institution",
+          "Letter must be dated within 3 months of registration",
+          "Documents must be in English or Japanese, or include certified translation"
+        ]
+      },
+      "contact": {
+        "title": "Questions?",
+        "description": "Contact our student program coordinator:",
+        "email": "foss4g2026[at]osgeo.jp"
+      }
+    },
+    "travel_grant": {
+      "title": "Travel Grant Program",
+      "description": "Details about the FOSS4G 2026 Hiroshima Travel Grant Program (TGP).",
+      "supporting_participation": {
+        "title": "Increasing Accessibility and Diversity",
+        "description": "The FOSS4G 2026 Hiroshima organizing committee is pleased to provide a Travel Grant Program to increase the chances of attendance and accessibility of this conference to community members, especially focusing on facilitating participation for minority groups and categories usually underrepresented."
+      },
+      "who_should_apply": {
+        "title": "Who should apply",
+        "description": "The aim of the program is to increase the chances of attendance and accessibility of this conference to community members and it especially focuses on facilitating the participation for minority groups and categories usually underrepresented. This includes, but is not limited to:",
+        "criteria": [
+          "People who wouldn't be able to attend without funding assistance.",
+          "People attending FOSS4G for the first time.",
+          "People from underrepresented communities, such as Indigenous communities; Residents of remote communities; and Women and minority genders.",
+          "Community development workers or students who don't have workplace or government funding",
+          "People who will make use of what they learn to make a positive impact on themselves and their communities.",
+          "People who contribute to open communities, such as contributing to OpenStreetMap, or open source software."
+        ]
+      },
+      "application_process": {
+        "title": "How to apply",
+        "description": "Before submitting your TGP application, think about the key information that will help us understand you better:",
+        "key_questions": [
+          "How have you and do you contribute to the community?",
+          "Do you belong to any community organisations and for how long?",
+          "Why do you need our support?",
+          "What financial assistance do you require (please be realistic)?"
+        ],
+        "note": "Applicant data will be kept confidential and only used for assessing TGP applications. Please ensure that the email address provided is regularly monitored as the selection committee may seek clarification of your response."
+      },
+      "about_tgp": {
+        "title": "About the TGP",
+        "description": "The FOSS4G Travel Grant Program initiative was established to facilitate accessibility and diversity at FOSS4G conferences. It is funded by OSGeo Foundation, proceeds from our generous sponsors, and contributions from organisations and individuals.",
+        "funding_note": "Please note that the number of grants available is dependent on this funding and the number of applications we receive.",
+        "management": "The TGP is managed by the FOSS4G 2026 Hiroshima LOC Committee."
+      },
+      "important_dates": {
+        "title": "Important Dates",
+        "note": "Detailed schedule will be announced later.",
+        "dates": [
+          "Application Opens: Spring 2026 (planned)",
+          "Application Deadline: Summer 2026 (planned)",
+          "Notification: Approximately 1 month after deadline",
+          "Acceptance Confirmation: Within 2 weeks of notification"
+        ]
+      },
+      "contact": {
+        "title": "Contact Information",
+        "description": "For more information, either on the disbursement of grants or guidance on the application process, please email us and we will do our best to assist and accommodate you:",
+        "email": "foss4g2026[at]osgeo.jp",
+        "note": "We will do our best to assist and accommodate you."
+      },
+      "reimbursement": {
+        "title": "Grant Disbursement",
+        "description": "All expenses must be paid upfront, with the grants provided as reimbursement upon arrival at the conference. If this arrangement is inconvenient for you, please let us know and we'll do our best to help.",
+        "unsuccessful": "If your application is unsuccessful, we will let you know and possibly offer you a place on the standby list, just in case someone cannot make it or the conference receives additional funding."
+      }
+    },
+    "volunteering": {
+      "title": "Volunteering",
+      "description": "Details about the FOSS4G 2026 Hiroshima volunteer program.",
+      "join_team": {
+        "title": "Join Our Volunteer Team!",
+        "description": "We need help with some of the day-to-day running of the conference and we think you'll be perfect for the job. As a volunteer, we'd like you to support us during the conference period."
+      },
+      "who_can_volunteer": {
+        "title": "Who can volunteer?",
+        "description": "Anyone who would like to attend can volunteer!"
+      },
+      "volunteer_tasks": {
+        "title": "What will you be doing as a volunteer?",
+        "description": "As a volunteer, we'd like you to support us during the conference period. You'll be assigned to a role half the time or less, the rest of the time you have full access to the conference.",
+        "tasks": [
+          "Helping out on the registration desk",
+          "Setting up and tidying up conference/workshop rooms",
+          "Helping people find conference/workshop rooms",
+          "Supporting the presenters in each room",
+          "Guiding people from the conference to social events (and then joining us at the social events!)"
+        ]
+      },
+      "benefits": {
+        "title": "What's in it for me?",
+        "description": "We have a range of perks to offer you for your help during our conference including:",
+        "perks": [
+          "Free registration to the conference (including catering for lunch)",
+          "Expand your knowledge and expertise in the field, and interact with other industry experts.",
+          "When not on duty, enjoy free access to the full conference experience, including over 100 insightful talks and hands-on workshops."
+        ]
+      },
+      "application_status": {
+        "title": "Application Status",
+        "description": "Information about future volunteer recruitment will be announced later."
+      },
+      "contact": {
+        "title": "Contact Information",
+        "description": "For questions about volunteering or information about future recruitment, please contact us at:",
+        "email": "foss4g2026[at]osgeo.jp"
+      }
+    },
+    "cancellation": {
+      "title": "Cancellation Policy",
+      "description": "Cancellation policy and refund information.",
+      "intro": "We understand that plans can change. Please review our cancellation and refund policy below.",
+      "refund_schedule": {
+        "title": "Refund Schedule",
+        "headers": ["Cancellation Date", "Refund Amount", "Processing Fee"],
+        "rows": [
+          ["Before May 31, 2026", "90% refund", "¥5,000"],
+          ["June 1 - June 30, 2026", "75% refund", "¥5,000"],
+          ["July 1 - July 31, 2026", "50% refund", "¥5,000"],
+          ["August 1 - August 15, 2026", "25% refund", "¥5,000"],
+          ["After August 15, 2026", "No refund", "N/A"]
+        ]
+      },
+      "cancellation_process": {
+        "title": "Cancellation Process",
+        "steps": [
+          "Send cancellation request to foss4g2026[at]osgeo.jp",
+          "Include your registration confirmation number and reason for cancellation",
+          "Receive cancellation confirmation within 3 business days",
+          "Refund processed within 14 business days of confirmation"
+        ]
+      },
+      "workshop_cancellations": {
+        "title": "Workshop Cancellations",
+        "description": "Workshop registrations follow the same refund schedule as conference registration.",
+        "note": "Note: If a workshop is cancelled by the organizers, full refund will be provided for the workshop fee, regardless of the cancellation date."
+      },
+      "contact_information": {
+        "title": "Contact Information",
+        "description": "For cancellation inquiries, please contact:",
+        "email": "foss4g2026[at]osgeo.jp"
+      }
+    }
+  },
+  "call_for_papers": {
+    "title": "Call for Papers",
+    "general_sessions": {
+      "title": "General Sessions",
+      "description": "Information about general presentation submissions.",
+      "coming_soon_message": "Call for Papers will open in December 2025",
+      "topics": {
+        "title": "General Session Topics",
+        "intro": "We welcome presentations on all aspects of open-source geospatial technologies, including but not limited to:",
+        "technical_topics": {
+          "title": "Technical Topics",
+          "items": [
+            "Web mapping and visualization",
+            "Spatial databases and data management",
+            "Remote sensing and image processing",
+            "Mobile GIS applications",
+            "3D mapping and modeling"
+          ]
+        },
+        "application_areas": {
+          "title": "Application Areas",
+          "items": [
+            "Disaster response and management",
+            "Urban planning and smart cities",
+            "Environmental monitoring",
+            "Transportation and logistics",
+            "Agriculture and food security"
+          ]
+        }
+      },
+      "presentation_formats": {
+        "title": "Presentation Formats",
+        "standard_talk": {
+          "title": "Standard Talk",
+          "description": "20 minutes presentation + 5 minutes Q&A"
+        },
+        "lightning_talk": {
+          "title": "Lightning Talk",
+          "description": "5 minutes rapid-fire presentation"
+        },
+        "poster_session": {
+          "title": "Poster Session",
+          "description": "Interactive poster presentation"
+        }
+      },
+      "important_dates": {
+        "title": "Important Dates (Preliminary)",
+        "dates": [
+          "Call for Papers Opens: December 2025",
+          "Submission Deadline: March 31, 2026",
+          "Notification of Acceptance: May 15, 2026",
+          "Final Program Published: July 2026"
+        ]
+      }
+    },
+    "academic_track": {
+      "title": "Academic Track",
+      "description": "Details about academic paper submissions and presentations.",
+      "coming_soon_message": "Academic Track submissions will open in December 2025",
+      "overview": {
+        "title": "Academic Track Overview",
+        "description": "The Academic Track at FOSS4G 2026 Hiroshima provides a platform for researchers to present peer-reviewed scientific contributions to the open-source geospatial community. We welcome high-quality research papers that advance the state of knowledge in geospatial science and technology."
+      }
+    },
+    "workshop_proposals": {
+      "title": "Workshop Proposals",
+      "description": "Guidelines for workshop proposal submissions.",
+      "coming_soon_message": "Workshop proposals will open in January 2026",
+      "overview": {
+        "title": "Workshop Overview",
+        "description": "FOSS4G 2026 Hiroshima workshops provide hands-on learning experiences with open-source geospatial tools and technologies. We invite proposals for half-day and full-day workshops that offer practical, interactive sessions for conference attendees."
+      }
+    },
+    "code_sprint": {
+      "title": "Code Sprint",
+      "description": "Information about code sprint participation.",
+      "coming_soon_message": "Code Sprint registration will open in March 2026",
+      "overview": {
+        "title": "Code Sprint Overview",
+        "description": "Code Sprints are collaborative coding events where developers, users, and contributors work together on open-source geospatial projects. These intensive sessions foster innovation, fix bugs, implement new features, and strengthen the FOSS4G community."
+      }
+    }
+  },
+  "program_schedule": {
+    "title": "Program Schedule",
+    "outline": {
+      "title": "Outline",
+      "description": "Overall schedule and program outline."
+    },
+    "keynote": {
+      "title": "Keynote Speakers"
+    },
+    "presentations": {
+      "title": "Presentations"
+    },
+    "workshop": {
+      "title": "Workshops"
+    },
+    "events": {
+      "title": "Events"
+    }
+  },
+  "attending": {
+    "title": "Attending",
+    "venue": {
+      "title": "Conference Venue",
+      "description": "Information about the conference venue and facilities."
+    },
+    "transport": {
+      "title": "Transport Information",
+      "description": "Transportation options from airport to venue."
+    },
+    "travel_guide": {
+      "title": "Travel Guide",
+      "description": "Essential travel information including visa requirements, weather, and cultural tips."
+    },
+    "accommodation": {
+      "title": "Accommodation",
+      "description": "Recommended hotels and accommodation options."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message"
     }
   }
 }
